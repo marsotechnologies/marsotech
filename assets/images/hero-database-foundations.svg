@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="background" x1="102" y1="70" x2="1088" y2="757" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06172F"/>
+      <stop offset=".54" stop-color="#0A3457"/>
+      <stop offset="1" stop-color="#04152B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(485 384 -315 398 721 372)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#03C5F0" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#03C5F0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cylinder" x1="502" y1="250" x2="824" y2="585" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#145275"/>
+      <stop offset=".55" stop-color="#0A3859"/>
+      <stop offset="1" stop-color="#062542"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="518" y1="300" x2="796" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B2F0F8"/>
+      <stop offset=".5" stop-color="#03C5F0"/>
+      <stop offset="1" stop-color="#398BAF"/>
+    </linearGradient>
+    <filter id="shadow" x="350" y="140" width="680" height="606" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+  <path fill="url(#background)" d="M0 0h1200v800H0z"/>
+  <path fill="url(#glow)" d="M0 0h1200v800H0z"/>
+  <path stroke="#91D8F2" stroke-opacity=".07" d="M0 112h1200M0 224h1200M0 336h1200M0 448h1200M0 560h1200M0 672h1200M120 0v800M240 0v800M360 0v800M480 0v800M600 0v800M720 0v800M840 0v800M960 0v800M1080 0v800"/>
+  <ellipse cx="684" cy="624" fill="#021329" fill-opacity=".56" rx="296" ry="50" filter="url(#shadow)"/>
+  <g stroke="#62D9F0" stroke-opacity=".65" stroke-width="2">
+    <path d="M319 287h124l57 56"/>
+    <path d="M318 527h123l57-58"/>
+    <path d="M927 282h-109l-58 60"/>
+    <path d="M936 526H819l-59-57"/>
+    <path d="M638 205v51"/>
+    <path d="M638 579v70"/>
+  </g>
+  <g fill="#0A3859" stroke="#83E2F2" stroke-opacity=".68" stroke-width="2">
+    <rect x="176" y="249" width="143" height="76" rx="14"/>
+    <rect x="175" y="489" width="143" height="76" rx="14"/>
+    <rect x="927" y="244" width="143" height="76" rx="14"/>
+    <rect x="936" y="488" width="143" height="76" rx="14"/>
+    <rect x="586" y="129" width="104" height="76" rx="14"/>
+    <rect x="585" y="649" width="106" height="76" rx="14"/>
+  </g>
+  <g stroke="#03C5F0" stroke-linecap="round" stroke-width="4">
+    <path d="M201 276h49m-49 15h88m-88 15h62"/>
+    <path d="M200 516h69m-69 15h46m-46 15h78"/>
+    <path d="M952 271h71m-71 15h48m-48 15h82"/>
+    <path d="M961 515h48m-48 15h81m-81 15h58"/>
+    <path d="M607 155h61m-61 15h43m-43 15h55"/>
+    <path d="M606 675h55m-55 15h71m-71 15h39"/>
+  </g>
+  <g fill="#FBA007">
+    <circle cx="319" cy="287" r="5"/>
+    <circle cx="318" cy="527" r="5"/>
+    <circle cx="927" cy="282" r="5"/>
+    <circle cx="936" cy="526" r="5"/>
+  </g>
+  <g>
+    <path d="M494 296c0-36 69-65 154-65s154 29 154 65v249c0 36-69 65-154 65s-154-29-154-65V296Z" fill="url(#cylinder)" stroke="url(#edge)" stroke-width="3"/>
+    <ellipse cx="648" cy="296" fill="#1A5B7E" stroke="#A8ECF6" stroke-width="3" rx="154" ry="65"/>
+    <path stroke="#74DDF0" stroke-opacity=".84" stroke-width="2" d="M495 374c0 36 69 65 153 65s153-29 153-65M495 454c0 36 69 65 153 65s153-29 153-65"/>
+    <path stroke="#C2F3F9" stroke-opacity=".35" d="M513 296c0 29 60 52 135 52s135-23 135-52"/>
+    <path stroke="#03C5F0" stroke-linecap="round" stroke-width="4" d="M546 379h52m-52 15h78m-78 65h51m-51 15h78m-78 65h50m-50 15h75"/>
+    <circle cx="718" cy="378" r="7" fill="#FBA007"/>
+    <circle cx="739" cy="458" r="6" fill="#03C5F0"/>
+    <circle cx="717" cy="538" r="7" fill="#03C5F0"/>
+  </g>
+  <g stroke="url(#edge)" stroke-width="3">
+    <path d="m469 343-48 48 48 48"/>
+    <path d="m826 342 48 48-48 48"/>
+    <path d="M638 221v-35m0 0-19-19m19 19 19-19"/>
+    <path d="M638 615v39m0 0-19 19m19-19 19 19"/>
+  </g>
+  <g fill="#0B456A" stroke="#91E7F4" stroke-width="3">
+    <circle cx="421" cy="391" r="13"/>
+    <circle cx="874" cy="390" r="13"/>
+    <circle cx="619" cy="167" r="9"/>
+    <circle cx="657" cy="167" r="9"/>
+    <circle cx="619" cy="673" r="9"/>
+    <circle cx="657" cy="673" r="9"/>
+  </g>
+</svg>
