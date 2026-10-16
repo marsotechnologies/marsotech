@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="97" y1="43" x2="1080" y2="770" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071A34"/><stop offset=".55" stop-color="#0A3458"/><stop offset="1" stop-color="#04152D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(410 350 -305 350 692 379)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#03C5F0" stop-opacity=".25"/><stop offset="1" stop-color="#03C5F0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="335" y1="221" x2="868" y2="591" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#164D70"/><stop offset="1" stop-color="#082644"/>
+    </linearGradient>
+    <filter id="shadow" x="253" y="158" width="712" height="569" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v800H0z"/><path fill="url(#glow)" d="M0 0h1200v800H0z"/>
+  <path stroke="#91D8F2" stroke-opacity=".07" d="M0 112h1200M0 224h1200M0 336h1200M0 448h1200M0 560h1200M0 672h1200M120 0v800M240 0v800M360 0v800M480 0v800M600 0v800M720 0v800M840 0v800M960 0v800M1080 0v800"/>
+  <ellipse cx="614" cy="626" fill="#021329" fill-opacity=".55" rx="300" ry="50" filter="url(#shadow)"/>
+  <rect x="319" y="205" width="562" height="394" rx="23" fill="#041B34" stroke="#91D8F2" stroke-opacity=".62" stroke-width="3"/>
+  <rect x="341" y="227" width="518" height="350" rx="14" fill="url(#card)"/>
+  <g fill="#0A3859" stroke="#75DDF1" stroke-opacity=".65" stroke-width="2">
+    <rect x="378" y="267" width="444" height="83" rx="13"/>
+    <rect x="378" y="371" width="444" height="83" rx="13"/>
+    <rect x="378" y="475" width="444" height="63" rx="13"/>
+  </g>
+  <g fill="#0B456A" stroke="#A5EDF6" stroke-width="3">
+    <circle cx="424" cy="308" r="21"/><circle cx="424" cy="412" r="21"/><circle cx="424" cy="506" r="17"/>
+  </g>
+  <g stroke="#03C5F0" stroke-linecap="round" stroke-width="5">
+    <path d="M464 292h317m-317 17h232m-232 17h281"/>
+    <path d="M464 396h317m-317 17h257m-257 17h289"/>
+    <path d="M462 497h320m-320 17h240"/>
+  </g>
+  <path d="M424 297v14m-7-7h14" stroke="#03C5F0" stroke-linecap="round" stroke-width="4"/>
+  <path d="M416 407a9 9 0 1 1 13 8c-5 3-5 4-5 8m0 8v1" stroke="#03C5F0" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="424" cy="506" r="5" fill="#FBA007"/>
+  <circle cx="912" cy="248" r="7" fill="#FBA007"/><circle cx="291" cy="514" r="6" fill="#03C5F0"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="96" y1="45" x2="1080" y2="772" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071A34"/><stop offset=".54" stop-color="#0A3458"/><stop offset="1" stop-color="#04152D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(414 362 -312 356 663 378)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#03C5F0" stop-opacity=".25"/><stop offset="1" stop-color="#03C5F0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cube" x1="391" y1="229" x2="802" y2="558" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#165274"/><stop offset="1" stop-color="#082644"/>
+    </linearGradient>
+    <filter id="shadow" x="274" y="145" width="720" height="563" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v800H0z"/><path fill="url(#glow)" d="M0 0h1200v800H0z"/>
+  <path stroke="#91D8F2" stroke-opacity=".07" d="M0 112h1200M0 224h1200M0 336h1200M0 448h1200M0 560h1200M0 672h1200M120 0v800M240 0v800M360 0v800M480 0v800M600 0v800M720 0v800M840 0v800M960 0v800M1080 0v800"/>
+  <ellipse cx="630" cy="615" fill="#021329" fill-opacity=".55" rx="306" ry="52" filter="url(#shadow)"/>
+  <g stroke="#72DDF1" stroke-width="3">
+    <path d="M600 392 396 284m204 108 201-108M600 392 396 507m204-115 201 115M600 392v224"/>
+    <path d="M396 284v223m405-223v223"/>
+  </g>
+  <g fill="url(#cube)" stroke="#A2EAF5" stroke-width="3">
+    <path d="m600 278 115 66v132l-115 66-115-66V344l115-66Z"/>
+    <path d="m396 206 85 49v98l-85 49-85-49v-98l85-49Z"/>
+    <path d="m801 206 85 49v98l-85 49-85-49v-98l85-49Z"/>
+    <path d="m396 429 85 49v98l-85 49-85-49v-98l85-49Z"/>
+    <path d="m801 429 85 49v98l-85 49-85-49v-98l85-49Z"/>
+  </g>
+  <g stroke="#03C5F0" stroke-width="4" stroke-linejoin="round">
+    <path d="m600 307 77 44v88l-77 44-77-44v-88l77-44Z"/>
+    <path d="m396 229 55 32v64l-55 32-55-32v-64l55-32Z"/>
+    <path d="m801 229 55 32v64l-55 32-55-32v-64l55-32Z"/>
+    <path d="m396 452 55 32v64l-55 32-55-32v-64l55-32Z"/>
+    <path d="m801 452 55 32v64l-55 32-55-32v-64l55-32Z"/>
+  </g>
+  <g fill="#FBA007">
+    <circle cx="600" cy="392" r="8"/><circle cx="396" cy="284" r="7"/><circle cx="801" cy="284" r="7"/>
+    <circle cx="396" cy="507" r="7"/><circle cx="801" cy="507" r="7"/><circle cx="600" cy="616" r="7"/>
+  </g>
+</svg>
